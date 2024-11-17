@@ -10,7 +10,7 @@ import glob
 from timm.data.transforms import RandomResizedCropAndInterpolation, ToNumpy, ToTensor
 from utils import ROOT_PATH
 
-name_to_class_ids_file = os.path.join(ROOT_PATH, 'image_name_to_class_id_and_name.json')
+name_to_class_ids_file = os.path.join('/kaggle/working/TGR/', 'image_name_to_class_id_and_name.json')
 # params of dataset
 INPUT_SIZE = (3, 224, 224)
 INTERPOLATION = 'bicubic'
